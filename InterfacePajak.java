@@ -12,9 +12,7 @@ package UAS_PBO;
  * @author Eka Fardinal Hergitarestu 22104410119
  * @author Wasi'atul Jannah 22104410121
  */
-public interface InterfacePajak {
-    double PAJAK = 0.01; // PPN default 1% jika harga > Rp 4.000.000,00
-
+public interface InterfacePajak {     
     double hitungHargaSetelahPPN();
-    
+    double ppn = 0.01;
 }

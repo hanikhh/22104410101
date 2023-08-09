@@ -26,11 +26,11 @@ public class MenuPilihan {
         switch (pilihan) {
             case 1:
                 hasil = a + b;
-                System.out.println("Penjumlahan a:" + a + "+ b:"+b+" = "+hasil);
+                System.out.println("Penjumlahan a: " + a + "+ b:"+b+" = "+hasil);
                 break;
              case 2:
                 hasil = a - b;
-                System.out.println("Pengurangan a:" + a + "- b:"+b+" adalah "+hasil);
+                System.out.println("Pengurangan a: " + a + "- b:"+b+" adalah "+hasil);
                 break;
             default:
                 System.out.println("Pilihan anda salah");
